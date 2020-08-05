@@ -375,8 +375,11 @@ footer {
 
 @media screen and (max-width: 1024px){
     
-  
+    .details-text{
+        font-size: 17px;
+    }
 }
+
 
 @media screen and (max-width: 767px) {
     .slogan {
@@ -447,10 +450,10 @@ footer {
 
 @media screen and (max-width: 320px) {
     header img {
-        width: 88px;
+        width: 48px;
      }
      ul{
-         font-size: 5   px;
+         font-size: 5px;
      }
      li{
         margin-left: 10px;
