@@ -376,7 +376,7 @@ footer {
 @media screen and (max-width: 1024px){
     
     .details-text{
-        font-size: 17px;
+        font-size: 15px;
     }
 }
 
@@ -406,24 +406,24 @@ footer {
         font-size: 2vw;
     }
     .second-title{
-        font-size: 38px;
+        font-size: 35px;
         border: 1px solid;
         
     }
     .con-title{
         
-        font-size: 35px;
+        font-size: 28px;
        
     }
     .details-text{
-        font-size: 16px;
+        font-size: 12px;
     }
 }
 
 @media screen and (max-width: 480px) {
     header img {
-       width: 80px;
-       height: 60px;
+       width: 100px;
+       
     }
     ul{
         font-size: 7px;
@@ -449,8 +449,16 @@ footer {
         font-size: 34px;
         border: 1px solid;
         
-        
     }
+    .con-title{
+        
+        font-size: 22px;
+       
+    }
+    .details-text{
+        font-size: 10px;
+    }
+}
 @media screen and (max-width: 375px) {
     header img {
        width: 80px;
@@ -496,9 +504,7 @@ footer {
     header img {
         width: 48px;
      }
-     ul{
-         font-size: 5px;
-     }
+     
      li{
         margin-left: 10px;
     }
@@ -510,18 +516,17 @@ footer {
         font-size: 2.4vw;
     }
     .second-title{
-        font-size: 30px;
-        border: 1px solid;
+        font-size: 25px;
+        
         
         
     }
     .con-title{
         
-        font-size: 25px;
+        font-size: 22px;
        
     }
     .details-text{
         font-size: 9px;
     }
-}
 }
