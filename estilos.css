@@ -372,7 +372,13 @@ footer {
     border: gold;
 }
 
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 1024px){
+    
+  
+}
+
+@media screen and (max-width: 767px) {
     .slogan {
         width: 35%;
         margin-bottom: 10px;
@@ -402,7 +408,13 @@ footer {
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 480px) {
+    header img {
+       width: 120px;
+    }
+    li{
+        margin-left: 20px;
+    }
     .slogan {
         width: 35%;
         margin-bottom: 10px;
@@ -429,11 +441,20 @@ footer {
        
     }
     .details-text{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 320px) {
+    header img {
+        width: 88px;
+     }
+     ul{
+         font-size: 5   px;
+     }
+     li{
+        margin-left: 10px;
+    }
     .slogan {
         width: 34%;
         height: 31%;
@@ -449,10 +470,10 @@ footer {
     }
     .con-title{
         
-        font-size: 28px;
+        font-size: 25px;
        
     }
     .details-text{
-        font-size: 13px;
+        font-size: 9px;
     }
 }
