@@ -382,6 +382,15 @@ footer {
 
 
 @media screen and (max-width: 767px) {
+    header img {
+        width: 120px;
+        
+     }
+    
+     li{
+        font-size: 15px;
+        margin-left: 20px;
+     }
     .slogan {
         width: 35%;
         margin-bottom: 10px;
