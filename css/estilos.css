@@ -1,345 +1,428 @@
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-decoration: none;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+*{
+    margin: 0px;
+    position: relative;
+}
+header{
+    background-color: #2F3570;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    z-index: 2;
+    border: 1px ;
+    border-style: solid;
+    width: 100%;
+    height: 80px;
+    font-family: 'Nanum Myeongjo', serif;
+}
 
-    .header {
-        position: static;
-        width: 100%;
-        height: 16vh;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        background-color: black;
-        z-index: 2;
-    }
 
-    .logo img {
-        width: 100px;
-        height: 65px;
+.logo{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
+.logo img{
+    width: 120px;
+    height: 60px;
+}
 
-    .menu {
-        width: 80%;
-        height: 100%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        margin-right: 50px;
-    }
 
-    .menu ul {
-        display: flex;
-        list-style: none;
-    }
 
-    .menu li {
-        padding: 20px;
-    }
+ul{
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+    color: #ADB2F0;
+    padding: 0px;
 
-    .menu a {
-        color: whitesmoke;
-        text-decoration: none;
-        font-size: 18px;
-        font-weight: bolder;
-    }
+}
 
-    .menu a:hover {
-        color: white;
-        transition: all 0.5s ease;
-        padding: 5px;
-        border: 1px solid white;
-    }
+li{
+   
+    margin-left: 30px;
+    margin-top: 42px;
+    font-size: 18px;
+    
+}
+.texto{
+    font-size: 40px;
+}
 
+
+ li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    color:  white;
+   box-shadow: 4px 4px 7px black;
+   border-radius: 20px;
+    margin-bottom: 60px; 
+    border: 3px solid #2F3570;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 20px;
+    
+}
+.details{
+    
+    border: 7px black;
+}
+.con-title{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Nanum Myeongjo', serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #2F3570;
+}
+
+.details-text{
+    color: black;
+    text-align: justify;
+    font-size: 20px;
+    width: 70%;
+    margin-left: 15%;
+    font-family: 'Questrial', sans-serif;
+    line-height: 30px;
+}
+.second-title{
+    font-size: 45px;
+    text-align: center;
+    color: #454DA3;
+    font-family: 'Nanum Myeongjo', serif;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    border-top: 2px solid #454DA3;
+    border-bottom: 2px solid #454DA3;
+    
+}
+
+
+.up {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    cursor: pointer;
+}
+
+.section {
+    width: 100%;
+    position: relative;
+}
+
+.section img {
+    width: 100%;
+}
+
+.slogan {
+    position: absolute;
+    bottom: 34%;
+    right: 40px;
+    width: 38%;
+    padding: 15px 0px;
+    border: 3px solid white;
+    box-shadow: 3px 1px 8px white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(10, 10, 10, 0.7);
+    
+}
+
+.slogan p {
+    padding-left: 15px;
+    font-size: 3.4vw;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-shadow: 1px 1px 4px white;
+}
+
+.boton {
+    color: white;
+    background-color: #6570F0;
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    width: 27%;
+    height: 40px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 2.2vw;
+    box-shadow: 2px 2px 5px rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #ADB2F0;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    height: 270px;
+    border: 1px solid gold;
+    background-color: #1c203ff8;
+    
+    display: flex;
+    flex-direction: column;
+    color: white;  /* #6570F0
+    #8185B3
+   #454DA3
+   #ADB2F0
+    #2F3570*/
+}
+
+.contenedormain {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+.contenedor1 a {
+    color: white;
+    padding: 10px;
+    font-family: 'Questrial', sans-serif;
+    text-decoration: none;
+}
+
+.contenedor1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.contenedor1 h3 {
+    margin: 20px 0;
+    font-family: 'Nanum Myeongjo', serif;
+    text-decoration: underline;
+}
+
+.derechos {
+    border-top: 2px solid white;
+    background-color: black;
+    display: flex;
+  justify-content: center;
+    align-items: center;
+    height: 35%;
+    font-family: 'Questrial', sans-serif;
+}
+
+.derechos p{
+    font-family: 'Nanum Myeongjo', serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.derechos .title{
+    font-family: 'Questrial', sans-serif;
+    text-decoration: underline;
+}
+
+.linea {
+    height: 5%;
+    background-color: #6570F0;
+    grid-area: linea;
+}
+
+.cuadros {
+    width: 2%;
+    height: 11%;
+    position: fixed;
+    left: 1%;
+    top: 15%;
+    z-index: 2;
+}
+
+.face, .insta, .twitt {
+    margin-bottom: 5px;
+    width: 21px;
+    height: 23px;
+    background-color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    cursor: pointer;
+    color: white;
+}
+
+.face {
+    background-color: #3b5998;
+}
+
+.insta {
+    background-color: #e1306c;
+}
+
+.twitt {
+    background-color: #00acee;
+}
+
+.face:hover, .insta:hover, .twitt:hover {
+    background-color: wheat;
+    border: gold;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    
+    
+    .slogan p {
+               font-size: 2.5vw;
+               text-align: center;
+        }
+    
     .boton {
-        width: 60px;
-        position: absolute;
-        right: 2px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        bottom: 20%;
+        right: 80px;
+        width: 27%;
+        height: 10%;
+        
     }
-
-    #btn-menu {
-        display: none;
+    
+     li{
+        font-size: 15px;
+        margin-left: 20px;
+     }
+    
+    .second-title{
+        font-size: 35px;
+               
     }
-
-    #toggle {
-        display: none;
+    .con-title{
+        
+        font-size: 28px;
+       
     }
-
-    #cerrar {
-        color: white;
-        display: block;
-        width: 55px;
-        height: 50px;
-        border-radius: 50%;
-        line-height: 50px;
-        text-align: center;
-        font-size: 25px;
-        box-shadow: 0 1px 3px rgba(255, 255, 255, 0.7);
-        cursor: pointer;
-        border: 2px solid white;
+    .details-text{
+        font-size: 18px;
     }
+}
 
-    #toggle:checked+#cerrar {
-        background: rgba(10, 10, 10, 0.7);
-        box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.7);
-        color: rgba(255, 255, 255, 0.8);
-    }
-
-    .seccion1 {
-        background: linear-gradient(black, white);
-        height: 100vh;
-        width: 100%;
-    }
-
-    .up {
-        position: fixed;
-        bottom: 15px;
-        right: 15px;
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background: white;
-        border: 1px solid black;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: black;
-        cursor: pointer;
-    }
-
-    .section {
-        width: 100%;
-        position: relative;
-    }
-
-    .section img {
-        width: 100%;
-    }
-
-    .slogan {
-        position: absolute;
-        bottom: 34%;
-        right: 40px;
-        width: 36%;
-        height: 30%;
-        border: 3px solid white;
-        box-shadow: 3px 1px 8px white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(10, 10, 10, 0.7);
-        text-align: center;
-    }
-
-    .slogan {
-        position: absolute;
-        bottom: 34%;
-        right: 4%;
-        height: 32%;
-        border: 3px solid white;
-        box-shadow: 3px 1px 8px white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(10, 10, 10, 0.7);
-        text-align: center;
+@media screen and (max-width: 600px) {
+    
+    .slogan{
+        width: 35%;
     }
 
     .slogan p {
-        padding-left: 20px;
-        font-size: 3.5vw;
-        color: white;
-        font-family: 'Questrial', sans-serif;
-        letter-spacing: 1px;
-        font-weight: bolder;
-        text-shadow: 1px 1px 4px white;
-    }
-
-    .boton2 {
-        color: white;
-        background-color: #6570F0;
-        position: absolute;
+        
+        font-size: 2.7vw;
+        margin-right: 7px;
+        }
+    
+    .boton {
         bottom: 20%;
-        right: 8%;
+        right: 66px;
         width: 27%;
-        height: 40px;
-        font-family: 'Questrial', sans-serif;
-        font-size: 2.2vw;
-        box-shadow: 2px 2px 5px rgb(255, 255, 255);
-        cursor: pointer;
-    }
-
-    .boton2:hover {
-        background-color: #ADB2F0;
-        color: black;
-    }
-
-    footer {
-        width: 100%;
-        height: 270px;
-        border: 1px solid gold;
-        background-color: #1c203ff8;
-        
-        display: flex;
-        flex-direction: column;
-        color: white;  /* #6570F0
-        #8185B3
-       #454DA3
-       #ADB2F0
-        #2F3570*/
-    }
-
-    .contenedormain {
-        width: 100%;
-        height: 70%;
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        color: white;
-    }
-
-    .contenedormain a {
-        color: white;
-        padding: 10px;
-        font-family: 'Questrial', sans-serif;
+        height: 10%;
         
     }
+   
+    ul{
+        font-size: 7px;
+    }
+    li{
+        margin-left: 20px;
+    }
+   
+       .second-title{
+        font-size: 34px;
+        }
 
-    .contenedor1 {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        padding-bottom: 20px;
+    .cuadros {
+        width: 1%;
+        height: 10%;
+        
+       
+    }
+    
+    .face, .insta, .twitt {
+        margin-bottom: 5px;
+        width: 15px;
+        height: 15px;
+       
+        
+    }
+    .con-title{
+        
+        font-size: 22px;
+       
+    }
+    .details-text{
+        font-size: 15px;
     }
 
-    .contenedor1 h3 {
-        margin: 20px 0;
-        font-family: 'Nanum Myeongjo', serif;
-        text-decoration: underline;
+    .second-title{
+        font-size: 25px;
     }
 
-    .derechos {
-        border-top: 2px solid white;
-        background-color: black;
-        display: flex;
-      justify-content: center;
-        align-items: center;
-        height: 35%;
-        font-family: 'Questrial', sans-serif;
+    .contenedor1 a {
+        font-size: 15px;
     }
 
     .derechos p{
-        font-family: 'Nanum Myeongjo', serif;
-        padding: 10px;
-        text-align: center;
+        font-size: 14px;
     }
 
-    .derechos .title{
-        font-family: 'Questrial', sans-serif;
-        text-decoration: underline;
+}
+@media screen and (max-width: 375px) {
+    
+    ul{
+        padding-left: 20px;
+        font-size: 7px;
     }
-
-    .linea {
-        height: 5%;
-        background-color: #6570F0;
-        grid-area: linea;
+    li{
+        margin-left: 10px;
     }
-
-    .cuadros {
-        width: 2%;
-        height: 11%;
-        background-color: black;
-        position: fixed;
-        left: 1%;
-        top: 15%;
-        z-index: 2;
+    
+    .details-text{
+        font-size: 10px;
+        line-height: 19px;
     }
-
-    .face, .insta, .twitt {
-        margin-bottom: 5px;
-        width: 21px;
-        height: 23px;
-        background-color: white;
-        border: 1px solid white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 13px;
-        cursor: pointer;
-        color: white;
+   
+}
+@media screen and (max-width: 320px) {
+  
+     
+     li{
+        margin-left: 10px;
     }
-
-    .face {
-        background-color: #3b5998;
+   
+    .second-title{
+        font-size: 20px;
+        
+        
     }
-
-    .insta {
-        background-color: #e1306c;
+    .con-title{
+        
+        font-size: 22px;
+       
     }
-
-    .twitt {
-        background-color: #00acee;
+    .details-text{
+        font-size: 9px;
     }
-
-    .face:hover, .insta:hover, .twitt:hover {
-        background-color: wheat;
-        border: gold;
-    }
-
-    @media screen and (max-width: 800px) {
-        .slogan {
-            width: 35%;
-            margin-bottom: 10px;
-            height: 31%;
-        }
-        .slogan p {
-            padding-left: 30px;
-            font-size: 3vw;
-        }
-        .boton2 {
-            width: 27%;
-            height: 30px;
-            font-size: 2vw;
-        }
-    }
-
-    @media screen and (max-width: 640px) {
-        .slogan {
-            width: 35%;
-            margin-bottom: 10px;
-            height: 31%;
-        }
-        .slogan p {
-            padding-left: 30px;
-            font-size: 2.5vw;
-        }
-        .boton2 {
-            width: 27%;
-            height: 30px;
-            font-size: 2vw;
-        }
-    }
-
-    @media screen and (max-width: 540px) {
-        .slogan {
-            width: 34%;
-            height: 31%;
-        }
-        .slogan p {
-            font-size: 2.4vw;
-        }
-    }
-
-    /*COLORS
-    #6570F0
- #8185B3
-#454DA3
-#ADB2F0
- #2F3570
+}
